@@ -1,0 +1,39 @@
+:root{
+
+--branco-principal: #FFFFFF;
+--cinza-secundario: #c0c0c0;
+--botao-azul: #167BF7;
+--cor-do-fundo: #00030c;
+}
+
+body{
+
+background-color: var(--cor-do-fundo);    
+color: var(--branco-principal);
+}
+#h1{
+
+    padding: 40px 10px ;
+    
+    }    
+ 
+ 
+#body{
+    
+ margin: 0%;
+padding: 0%;
+}
+
+#button{
+display: inline-block;
+padding: 70px  20px;
+transition:transform 100ms cubic-bezier(.73,-0.08,.67,2.43);
+height:400 ;
+width:100 ;
+}
+
+#button:hover{
+    transform: scale(1.08);
+
+
+}
